@@ -15,7 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
+// Oh i hate Endermans
 @Mod(Depthcraft.MOD_ID)
 public class Depthcraft {
     public static final String MOD_ID = "depthcraft";
