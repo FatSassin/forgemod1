@@ -42,6 +42,7 @@ public class Depthcraft {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.PEARL);
+            event.accept(ModItems.RED_PEARL);
         }
     }
 
