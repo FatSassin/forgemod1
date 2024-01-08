@@ -1,6 +1,7 @@
 package net.fatsassin.depthcraft;
 
 import com.mojang.logging.LogUtils;
+import net.fatsassin.depthcraft.item.ModCreativeModeTabs;
 import net.fatsassin.depthcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -26,6 +27,8 @@ public class Depthcraft {
     public Depthcraft() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -40,10 +43,7 @@ public class Depthcraft {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PEARL);
-            event.accept(ModItems.RED_PEARL);
-        }
+
     }
 
     @SubscribeEvent
