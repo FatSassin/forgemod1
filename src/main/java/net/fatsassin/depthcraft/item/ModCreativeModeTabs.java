@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PEARL.get());
                         pOutput.accept(ModItems.RED_PEARL.get());
                         pOutput.accept(Items.SPAWNER);
+                        pOutput.accept(ModItems.PETROCK.get());
                     })
                     .build());
 
