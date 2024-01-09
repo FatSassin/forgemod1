@@ -2,6 +2,8 @@ package net.fatsassin.depthcraft.item;
 
 import net.fatsassin.depthcraft.Depthcraft;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -18,7 +20,7 @@ public class ModItems {
     public static final RegistryObject<Item> PETROCK = ITEMS.register("petrock",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BLADE = ITEMS.register("blade",
-            () -> new Item(new Item.Properties()));
+            () -> new SwordItem(Tiers.DIAMOND, 4, 2,  new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
