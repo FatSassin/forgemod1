@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PETROCK.get());
                         pOutput.accept(ModItems.BLADE.get());
                         pOutput.accept(ModBlocks.ROCK_BLOCK.get());
+                        pOutput.accept(ModBlocks.DEATH_BLOCK.get());
                     })
                     .build());
 

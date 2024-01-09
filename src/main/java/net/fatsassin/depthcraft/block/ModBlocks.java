@@ -22,6 +22,9 @@ public class ModBlocks {
     public static final  RegistryObject<Block> ROCK_BLOCK = registerBlock("rock_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK)));
 
+    public static final  RegistryObject<Block> DEATH_BLOCK = registerBlock("death_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
