@@ -2,6 +2,7 @@ package net.fatsassin.depthcraft.item;
 
 import com.sun.jna.platform.win32.COM.util.annotation.ComObject;
 import net.fatsassin.depthcraft.Depthcraft;
+import net.fatsassin.depthcraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -24,6 +25,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(Items.SPAWNER);
                         pOutput.accept(ModItems.PETROCK.get());
                         pOutput.accept(ModItems.BLADE.get());
+                        pOutput.accept(ModBlocks.ROCK_BLOCK.get());
                     })
                     .build());
 

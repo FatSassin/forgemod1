@@ -1,6 +1,7 @@
 package net.fatsassin.depthcraft;
 
 import com.mojang.logging.LogUtils;
+import net.fatsassin.depthcraft.block.ModBlocks;
 import net.fatsassin.depthcraft.item.ModCreativeModeTabs;
 import net.fatsassin.depthcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,6 +31,7 @@ public class Depthcraft {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
