@@ -19,7 +19,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-// Oh i hate Endermans
+// I love enderman
 @Mod(Depthcraft.MOD_ID)
 public class Depthcraft {
     public static final String MOD_ID = "depthcraft";
