@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.fatsassin.depthcraft.block.ModBlocks;
 import net.fatsassin.depthcraft.item.ModCreativeModeTabs;
 import net.fatsassin.depthcraft.item.ModItems;
+import net.fatsassin.depthcraft.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,8 @@ public class Depthcraft {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

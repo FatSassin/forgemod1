@@ -1,0 +1,10 @@
+{
+  "two_trucks": {
+    "sounds": [
+      {
+        "name": "depthcraft:two_trucks",
+        "stream": true
+      }
+    ]
+  }
+}
