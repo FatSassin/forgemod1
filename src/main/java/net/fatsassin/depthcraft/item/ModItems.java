@@ -1,6 +1,7 @@
 package net.fatsassin.depthcraft.item;
 
 import net.fatsassin.depthcraft.Depthcraft;
+import net.fatsassin.depthcraft.item.custom.MetalDetectorItem;
 import net.fatsassin.depthcraft.sound.ModSounds;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.RecordItem;
@@ -25,6 +26,8 @@ public class ModItems {
             () -> new SwordItem(Tiers.DIAMOND, 4, 2,  new Item.Properties()));
     public static final RegistryObject<Item> TWO_TRUCKS_MUSIC_DISC = ITEMS.register("two_trucks_music_disc",
             () -> new RecordItem(6, ModSounds.TWO_TRUCKS, new Item.Properties().stacksTo(1),4880 ));
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
