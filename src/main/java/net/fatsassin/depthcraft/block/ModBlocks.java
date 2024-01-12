@@ -1,6 +1,7 @@
 package net.fatsassin.depthcraft.block;
 
 import net.fatsassin.depthcraft.Depthcraft;
+import net.fatsassin.depthcraft.block.custom.SoundBlock;
 import net.fatsassin.depthcraft.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -24,6 +25,8 @@ public class ModBlocks {
 
     public static final  RegistryObject<Block> DEATH_BLOCK = registerBlock("death_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK)));
+    public static final  RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
