@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         pOutput.accept(ModItems.MORSEL.get());
+                        pOutput.accept(ModItems.SEA_TAR_BALL.get());
                     })
                     .build());
 

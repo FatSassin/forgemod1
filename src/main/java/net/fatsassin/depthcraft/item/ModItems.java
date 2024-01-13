@@ -1,6 +1,7 @@
 package net.fatsassin.depthcraft.item;
 
 import net.fatsassin.depthcraft.Depthcraft;
+import net.fatsassin.depthcraft.item.custom.FuelItem;
 import net.fatsassin.depthcraft.item.custom.MetalDetectorItem;
 import net.fatsassin.depthcraft.sound.ModSounds;
 import net.minecraft.world.item.Item;
@@ -30,6 +31,8 @@ public class ModItems {
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
     public static final RegistryObject<Item> MORSEL = ITEMS.register("morsel",
             () -> new Item(new Item.Properties().food(ModFoods.MORSEL)));
+    public static final RegistryObject<Item> SEA_TAR_BALL = ITEMS.register("sea_tar_ball",
+            () -> new FuelItem(new Item.Properties(), 3200));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
