@@ -28,6 +28,8 @@ public class ModItems {
             () -> new RecordItem(6, ModSounds.TWO_TRUCKS, new Item.Properties().stacksTo(1),4880 ));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+    public static final RegistryObject<Item> MORSEL = ITEMS.register("morsel",
+            () -> new Item(new Item.Properties().food(ModFoods.MORSEL)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
