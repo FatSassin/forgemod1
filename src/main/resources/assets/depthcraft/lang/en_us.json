@@ -9,7 +9,8 @@
   "item.depthcraft.two_trucks_music_disc": "Two Trucks Music Disc",
   "item.depthcraft.two_trucks_music_disc.desc": "Lemon Demon - Two Trucks",
   "item.depthcraft.metal_detector": "The Detector That Detects Metals",
-  "item.depthcraft.sound_block": "Unisususlal Block of Sound that Emits noises",
+  "block.depthcraft.sound_block": "Unisususlal Block of Sound that Emits noises",
   "item.depthcraft.morsel": "A small Morsel",
-  "item.depthcraft.sea_tar_ball": "A Ball of Sea Tar"
+  "item.depthcraft.sea_tar_ball": "A Ball of Sea Tar",
+  "tooltip.depthcraft.metal_detector.tooltip": "Finds Iron and Diamonds below blocks"
 }
