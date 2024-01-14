@@ -1,26 +1,26 @@
-[14sty2024 12:02:34.319] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 12, --assetsDir, C:\Users\huber\Desktop\gradle-3.5.1-all\caches\forge_gradle\assets, --gameDir, ., --mod, depthcraft, --all, --output, C:\Users\huber\Desktop\forgemod1\src\generated\resources, --existing, C:\Users\huber\Desktop\forgemod1\src\main\resources]
-[14sty2024 12:02:34.327] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.9+9
-[14sty2024 12:02:34.330] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[14sty2024 12:02:34.666] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[14sty2024 12:02:35.035] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/huber/Desktop/gradle-3.5.1-all/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
-[14sty2024 12:02:36.282] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[14sty2024 12:02:38.281] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\huber\Desktop\gradle-3.5.1-all\caches\forge_gradle\assets, --assetIndex, 12, --mod, depthcraft, --all, --output, C:\Users\huber\Desktop\forgemod1\src\generated\resources, --existing, C:\Users\huber\Desktop\forgemod1\src\main\resources]
-[14sty2024 12:02:47.045] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.14, for MC 1.20.4 with MCP 20231207.112700
-[14sty2024 12:02:47.048] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.14 Initialized
-[14sty2024 12:02:47.918] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [depthcraft]
-[14sty2024 12:02:48.028] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/Desktop/gradle-3.5.1-all/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.14_mapped_official_1.20.4/forge-1.20.4-49.0.14_mapped_official_1.20.4.jar%2316!/assets/.mcassetsroot' uses unexpected schema
-[14sty2024 12:02:48.029] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/Desktop/gradle-3.5.1-all/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.14_mapped_official_1.20.4/forge-1.20.4-49.0.14_mapped_official_1.20.4.jar%2316!/data/.mcassetsroot' uses unexpected schema
-[14sty2024 12:02:48.400] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[14sty2024 12:02:48.531] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 129 ms
-[14sty2024 12:02:48.531] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[14sty2024 12:02:48.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 62 ms
-[14sty2024 12:02:48.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: depthcraft
-[14sty2024 12:02:48.903] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: depthcraft finished after 309 ms
-[14sty2024 12:02:48.903] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: depthcraft
-[14sty2024 12:02:48.914] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: depthcraft finished after 10 ms
-[14sty2024 12:02:48.914] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id depthcraft
-[14sty2024 12:02:48.934] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id depthcraft finished after 19 ms
-[14sty2024 12:02:48.934] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id depthcraft
-[14sty2024 12:02:48.935] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id depthcraft finished after 1 ms
-[14sty2024 12:02:48.935] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 535 ms
-[14sty2024 12:02:48.952] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 43, old count: 43, new count: 44, removed stale: 0, written: 0
+[14sty2024 12:11:59.454] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 12, --assetsDir, C:\Users\huber\Desktop\gradle-3.5.1-all\caches\forge_gradle\assets, --gameDir, ., --mod, depthcraft, --all, --output, C:\Users\huber\Desktop\forgemod1\src\generated\resources, --existing, C:\Users\huber\Desktop\forgemod1\src\main\resources]
+[14sty2024 12:11:59.465] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.9+9
+[14sty2024 12:11:59.468] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[14sty2024 12:11:59.922] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[14sty2024 12:12:00.367] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/huber/Desktop/gradle-3.5.1-all/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[14sty2024 12:12:01.692] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14sty2024 12:12:03.818] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\huber\Desktop\gradle-3.5.1-all\caches\forge_gradle\assets, --assetIndex, 12, --mod, depthcraft, --all, --output, C:\Users\huber\Desktop\forgemod1\src\generated\resources, --existing, C:\Users\huber\Desktop\forgemod1\src\main\resources]
+[14sty2024 12:12:12.188] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.14, for MC 1.20.4 with MCP 20231207.112700
+[14sty2024 12:12:12.191] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.14 Initialized
+[14sty2024 12:12:13.083] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [depthcraft]
+[14sty2024 12:12:13.193] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/Desktop/gradle-3.5.1-all/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.14_mapped_official_1.20.4/forge-1.20.4-49.0.14_mapped_official_1.20.4.jar%2316!/assets/.mcassetsroot' uses unexpected schema
+[14sty2024 12:12:13.194] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/huber/Desktop/gradle-3.5.1-all/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.14_mapped_official_1.20.4/forge-1.20.4-49.0.14_mapped_official_1.20.4.jar%2316!/data/.mcassetsroot' uses unexpected schema
+[14sty2024 12:12:13.489] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[14sty2024 12:12:13.594] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 103 ms
+[14sty2024 12:12:13.594] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[14sty2024 12:12:13.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 47 ms
+[14sty2024 12:12:13.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: depthcraft
+[14sty2024 12:12:13.843] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: depthcraft finished after 201 ms
+[14sty2024 12:12:13.843] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: depthcraft
+[14sty2024 12:12:13.852] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: depthcraft finished after 9 ms
+[14sty2024 12:12:13.852] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id depthcraft
+[14sty2024 12:12:13.874] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id depthcraft finished after 21 ms
+[14sty2024 12:12:13.874] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id depthcraft
+[14sty2024 12:12:13.878] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id depthcraft finished after 3 ms
+[14sty2024 12:12:13.878] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 389 ms
+[14sty2024 12:12:13.893] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 45, old count: 43, new count: 46, removed stale: 0, written: 2
