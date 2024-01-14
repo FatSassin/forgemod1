@@ -2,14 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
     "P": {
       "item": "depthcraft:pearl"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "PPP",
-    "PPP",
-    "PPP"
+    " S ",
+    " S ",
+    "DPD"
   ],
   "result": {
     "item": "depthcraft:metal_detector"

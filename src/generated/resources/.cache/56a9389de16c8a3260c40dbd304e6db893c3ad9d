@@ -1,0 +1,6 @@
+// 1.20.4	2024-01-13T15:33:16.3243916	Tags for minecraft:block mod id depthcraft
+d4f3bb786e171f0791ad7991cbbc6cd6d90d0775 data/depthcraft/tags/blocks/metal_detector_valuables.json
+567d1a757464979d51dc62cf307b8a51ac774fef data/minecraft/tags/blocks/mineable/pickaxe.json
+d37fd2cb454088349633e76ec23c9cd86c5a977c data/minecraft/tags/blocks/needs_diamond_tool.json
+290de5d95fe7556e476a16750058769effa05b6b data/minecraft/tags/blocks/needs_iron_tool.json
+a70dcc0fcac4c497e83606a82036835f40f5129b data/minecraft/tags/blocks/needs_stone_tool.json

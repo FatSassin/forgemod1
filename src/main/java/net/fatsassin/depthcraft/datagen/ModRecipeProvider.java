@@ -27,11 +27,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(recipeOutput, PEARL_SMELTABLES, RecipeCategory.MISC, ModItems.PEARL.get(), 0.25f, 100, "pearl");
         oreSmelting(recipeOutput, PEARL_SMELTABLES, RecipeCategory.MISC, ModItems.PEARL.get(), 0.25f, 200, "pearl");
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.TORCH, 8)
+                .pattern("T")
+                .pattern("S")
+                .define('T', ModItems.SEA_TAR_BALL.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SEA_TAR_BALL.get()), has(ModItems.SEA_TAR_BALL.get()))
+                .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.METAL_DETECTOR.get())
-                .pattern("PPP")
-                .pattern("PPP")
-                .pattern("PPP")
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern("DPD")
                 .define('P', ModItems.PEARL.get())
+                .define('D', Items.DIAMOND)
+                .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.METAL_DETECTOR.get()), has(ModItems.METAL_DETECTOR.get()))
                 .save(recipeOutput);
 

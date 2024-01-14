@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "depthcraft:sea_tar_ball"
+    }
+  },
+  "pattern": [
+    "T",
+    "S"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:torch"
+  }
+}

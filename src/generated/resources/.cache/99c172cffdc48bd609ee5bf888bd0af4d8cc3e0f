@@ -1,0 +1,10 @@
+// 1.20.4	2024-01-13T15:38:01.9340621	Block States: depthcraft
+2ed01d081f1b8d3b59740deb5bad45f3edb2b8a1 assets/depthcraft/blockstates/death_block.json
+a1fbe89d6d8ffcc1a45f4ebc8e807a7f6e240cdc assets/depthcraft/blockstates/rock_block.json
+7ee46e503218862b670dce2c3834ae359c6fc68a assets/depthcraft/blockstates/sound_block.json
+c45f382eb62c034fe48875090fc46692f73c70c8 assets/depthcraft/models/block/death_block.json
+4bd6c68717ed86507832eb8ac6c53a17dee85eb0 assets/depthcraft/models/block/rock_block.json
+b3d646e5defdb76b82619291623dcb7cdecc9d60 assets/depthcraft/models/block/sound_block.json
+e4c7d74d560f3ed9ef8e7618f0c9ad972612b007 assets/depthcraft/models/item/death_block.json
+58071f5c6e264dbd654ca0428d04431fc941a314 assets/depthcraft/models/item/rock_block.json
+cb80d1c724b6ee2046349efd8f97080dac122642 assets/depthcraft/models/item/sound_block.json
