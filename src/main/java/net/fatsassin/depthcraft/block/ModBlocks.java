@@ -23,16 +23,16 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Depthcraft.MOD_ID);
 
     public static final RegistryObject<Block> ROCK_BLOCK = registerBlock("rock_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 
     public static final RegistryObject<Block> DEATH_BLOCK = registerBlock("death_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
-            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK)));
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 
     //stair blocks and stuff
     public static final RegistryObject<Block> ROCK_SLAB = registerBlock("rock_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK).noLootTable()));
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).noLootTable()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
