@@ -32,7 +32,7 @@ public class ModBlocks {
 
     //stair blocks and stuff
     public static final RegistryObject<Block> ROCK_SLAB = registerBlock("rock_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK)));
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK).noLootTable()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
